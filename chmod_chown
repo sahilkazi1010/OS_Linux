@@ -1,0 +1,33 @@
+touch student.txt
+# Creates a new empty file
+
+cat > student.txt
+# Adds data into file
+
+1 sahil 99
+2 affan 88
+3 umar 55
+4 sahil 100
+
+# Press Ctrl + D to save file
+
+cat student.txt
+# Displays file contents
+
+ls -l student.txt
+# Shows file permissions and owner details
+
+chmod 777 student.txt
+# Gives read, write and execute permissions to all users
+
+ls -l student.txt
+# Displays updated permissions
+
+sudo adduser testuser
+# Creates a new user named testuser
+
+sudo chown testuser student.txt
+# Changes owner of file to testuser
+
+ls -l student.txt
+# Displays updated owner information
