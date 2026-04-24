@@ -1,0 +1,9 @@
+pwd
+
+touch demo.txt
+
+chmod 777 demo.txt
+
+ls -l demo.txt
+
+sudo adduser sahil
