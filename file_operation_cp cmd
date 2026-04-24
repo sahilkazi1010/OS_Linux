@@ -1,0 +1,32 @@
+cat > source.txt
+Hello Linux
+Ctrl + D
+
+nano cp.py
+# Paste the below Python program
+
+source = open("source.txt", "r")
+
+destination = open("destination.txt", "w")
+
+data = source.read()
+
+destination.write(data)
+
+source.close()
+
+destination.close()
+
+print("File copied successfully")
+
+# Press Ctrl + O then Enter to save
+# Press Ctrl + X to exit
+
+python3 cp.py
+# Runs the Python program
+
+ls
+# Displays all files
+
+cat destination.txt
+# Displays copied file content
