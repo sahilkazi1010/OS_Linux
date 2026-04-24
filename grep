@@ -1,0 +1,18 @@
+touch student.txt
+
+cat > student.txt
+1 Sahil 85
+2 Umar 78
+3 Afan 92
+4 Nazir 67
+Ctrl + D
+
+grep "Sahil" student.txt
+
+grep "92" student.txt
+
+grep -i "sahil" student.txt
+
+grep -n "Umar" student.txt
+
+grep -v "Nazir" student.txt
