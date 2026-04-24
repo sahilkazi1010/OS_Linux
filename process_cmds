@@ -1,0 +1,20 @@
+#!/bin/bash
+# Executes script using bash shell
+
+ps
+# Shows currently running processes
+
+ps -ef
+# Displays all processes with full details
+
+top
+# Displays live running processes and system usage
+
+sleep 60 &
+# Runs process in background for 60 seconds
+
+jobs
+# Shows background jobs
+
+kill %1
+# Kills background job number 1
