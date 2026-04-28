@@ -1,9 +1,19 @@
 pwd
+# Prints the present working directory (current folder location)
 
 touch demo.txt
+# Creates an empty file named demo.txt
 
 chmod 777 demo.txt
+# Changes file permissions of demo.txt
+# 777 means:
+# 7 = read + write + execute permission
+# Given to owner, group, and others
 
 ls -l demo.txt
+# Displays detailed information of demo.txt
+# Shows permissions, owner, size, date, etc.
 
 sudo adduser sahil
+# Creates a new user named sahil
+# sudo gives administrator/root privileges to run the command
