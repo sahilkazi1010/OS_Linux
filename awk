@@ -4,7 +4,7 @@ cat > student.txt                # Opens file to enter data from keyboard
 1 Sahil 85
 2 Umar 78
 3 Afan 92
-4 Nazif 67
+4 saheem 67
 Ctrl + D                         # Saves and exits the file
 
 awk '{print}' student.txt        # Prints all lines from the file
