@@ -1,18 +1,28 @@
-touch student.txt
+grep stands for Global Regular Expression Print.
 
-cat > student.txt
+It is a Linux command used to search text or patterns inside
+
+cat > student.txt                # Opens the file to enter data
 1 Sahil 85
 2 Umar 78
 3 Afan 92
-4 Nazir 67
-Ctrl + D
+4 Nazif 67
+Ctrl + D                         # Saves the file and exits
 
 grep "Sahil" student.txt
+# Searches and prints the line containing "Sahil"
 
 grep "92" student.txt
+# Searches and prints the line containing 92
 
 grep -i "sahil" student.txt
+# -i means ignore case
+# Searches "sahil", "SAHIL", "Sahil", etc.
 
 grep -n "Umar" student.txt
+# -n means line number
+# Prints the matching line along with its line number
 
-grep -v "Nazir" student.txt
+grep -v "Nazif" student.txt
+# -v means inverse search
+# Prints all lines except the line containing "Nazif"
